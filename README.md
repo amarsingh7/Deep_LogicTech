@@ -24,7 +24,7 @@ pip install -r requirements.txt
 1. Run the script using Python:
 
 ```bash
-python scrape_latest_stories.py
+python script.py
 ```
 
 2. The script will open the Time.com website, close any pop-up ads, and scrape the titles and links of the latest stories.
@@ -32,6 +32,6 @@ python scrape_latest_stories.py
 
 ## File Description
 
-- `scrape_latest_stories.py`: Python script to scrape the latest stories from Time.com using Selenium.
+- `script.py`: Python script to scrape the latest stories from Time.com using Selenium.
 - `data.json`: JSON file containing the scraped latest stories.
 
